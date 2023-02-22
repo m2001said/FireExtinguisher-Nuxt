@@ -1,0 +1,23 @@
+[
+  {
+    "name": "products",
+    "path": "/products",
+    "component": "E:\\\\thatek\\\\firepage-nuxt\\\\pages\\\\products\\\\index.vue",
+    "chunkName": "pages/products/index",
+    "_name": "_6cd86a96"
+  },
+  {
+    "name": "products-id",
+    "path": "/products/:id",
+    "component": "E:\\\\thatek\\\\firepage-nuxt\\\\pages\\\\products\\\\_id.vue",
+    "chunkName": "pages/products/_id",
+    "_name": "_7ce21346"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "E:\\\\thatek\\\\firepage-nuxt\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_6af1bcd9"
+  }
+]
