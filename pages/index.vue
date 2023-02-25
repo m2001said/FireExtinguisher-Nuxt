@@ -50,4 +50,20 @@ body {
 .flex-column {
   flex-direction: column;
 }
+.main-btn {
+  background: rgb(231, 81, 43);
+  width: 100%;
+  transition: all 0.3s;
+
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.main-btn:hover {
+  background: white;
+  border-color: rgb(231, 81, 43);
+  color: rgb(231, 81, 43);
+}
+.card {
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.308);
+}
 </style>

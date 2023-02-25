@@ -1,19 +1,32 @@
 <template>
-  <div>
-    <div class="item-container">
-      <img :src="require(`@/assets/images/${item.image}`)" alt="" />
-      <div class="text-container">
-        <h4>{{ item.title }}</h4>
-        <p>{{ item.description }}</p>
-      </div>
+  <div class="item-container">
+    <img :src="require(`@/assets/images/${item.image}`)" alt="" />
+    <div class="text-container">
+      <h4>{{ item.title }}</h4>
+      <p>{{ item.description }}</p>
+
+      <button
+        class="main-btn"
+        @click="
+          () => {
+            deleteItem(item.id);
+          }
+        "
+      >
+        Delete
+      </button>
     </div>
-    <!-- <p v-else>There is not any one of items yet</p> -->
   </div>
 </template>
-
+<!-- @onclick=" --wrong, the true is @click -->
 <script>
+import { mapMutations } from "vuex";
 export default {
   props: ["item"],
+
+  methods: {
+    ...mapMutations(["deleteItem"]),
+  },
 };
 </script>
 

@@ -20,6 +20,9 @@ export default {
 </script>
 
 <style scoped>
+.container {
+  margin-top: 7rem;
+}
 p {
   height: 80vh;
   text-align: center;

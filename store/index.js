@@ -242,7 +242,7 @@ export const mutations = {
     state.myRentals.push(item);
   },
 
-  // allItems() {
-  //   return state.myRentals.reduce((a, b) => a + b, 0);
-  // },
+  deleteItem(state, id) {
+    state.myRentals = state.myRentals.filter((item) => item.id !== id);
+  },
 };

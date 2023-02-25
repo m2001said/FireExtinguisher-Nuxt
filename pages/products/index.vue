@@ -27,4 +27,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.main-container {
+  margin-top: 7rem;
+}
+</style>
