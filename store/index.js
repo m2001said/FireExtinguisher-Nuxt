@@ -238,8 +238,12 @@ export const getters = {
 
 export const mutations = {
   addItem(state, id) {
-    let item = state.products.find((product) => product.id === id);
-    state.myRentals.push(item);
+    let itemInProducts = state.products.find((item) => item.id === id);
+    let itemInRentals = state.myRentals.find((item) => item.id === id);
+
+    if (itemInProducts && !itemInRentals) {
+      state.myRentals.push(itemInProducts);
+    }
   },
 
   deleteItem(state, id) {
