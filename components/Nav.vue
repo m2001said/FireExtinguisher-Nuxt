@@ -3,13 +3,25 @@
     <nuxt-link to="/" class="logo">Fire Extinguisher</nuxt-link>
     <div class="nav-links">
       <nuxt-link to="/products">Products</nuxt-link>
-      <nuxt-link to="/my-items">My Items</nuxt-link>
+      <nuxt-link to="/my-items"
+        >My Items
+
+        <span>{{ allItems }}</span>
+      </nuxt-link>
     </div>
   </nav>
 </template>
 
 <script>
-export default {};
+import { mapState } from "vuex";
+export default {
+  computed: {
+    ...mapState(["myRentals"]),
+    allItems() {
+      return this.myRentals.length;
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -37,5 +49,10 @@ nav a:hover {
 }
 .nuxt-link-exact-active {
   color: rgb(231, 81, 43);
+}
+span {
+  background: rgb(231, 81, 43);
+  color: white;
+  width: 30px;
 }
 </style>

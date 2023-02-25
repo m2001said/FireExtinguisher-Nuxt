@@ -10,8 +10,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-vue": "^2.23.1",
     "core-js": "^3.25.3",
     "nuxt": "^2.16.1",
+    "v-calendar": "^2.4.1",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"

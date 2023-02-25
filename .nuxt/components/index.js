@@ -1,10 +1,15 @@
-export const Footer = () => import('../..\\components\\Footer.vue' /* webpackChunkName: "components/footer" */).then(c => wrapFunctional(c.default || c))
-export const Hero = () => import('../..\\components\\Hero.vue' /* webpackChunkName: "components/hero" */).then(c => wrapFunctional(c.default || c))
-export const LargeCard = () => import('../..\\components\\LargeCard.vue' /* webpackChunkName: "components/large-card" */).then(c => wrapFunctional(c.default || c))
-export const LargeCardDisplay = () => import('../..\\components\\LargeCardDisplay.vue' /* webpackChunkName: "components/large-card-display" */).then(c => wrapFunctional(c.default || c))
-export const Nav = () => import('../..\\components\\Nav.vue' /* webpackChunkName: "components/nav" */).then(c => wrapFunctional(c.default || c))
-export const SmallCard = () => import('../..\\components\\SmallCard.vue' /* webpackChunkName: "components/small-card" */).then(c => wrapFunctional(c.default || c))
-export const SmallCardDisplay = () => import('../..\\components\\SmallCardDisplay.vue' /* webpackChunkName: "components/small-card-display" */).then(c => wrapFunctional(c.default || c))
+export { default as Footer } from '../..\\components\\Footer.vue'
+export { default as Hero } from '../..\\components\\Hero.vue'
+export { default as LargeCard } from '../..\\components\\LargeCard.vue'
+export { default as LargeCardDisplay } from '../..\\components\\LargeCardDisplay.vue'
+export { default as MyItem } from '../..\\components\\MyItem.vue'
+export { default as Nav } from '../..\\components\\Nav.vue'
+export { default as PageNotFound } from '../..\\components\\PageNotFound.vue'
+export { default as RentModal } from '../..\\components\\RentModal.vue'
+export { default as Review } from '../..\\components\\Review.vue'
+export { default as ReviewCard } from '../..\\components\\ReviewCard.vue'
+export { default as SmallCard } from '../..\\components\\SmallCard.vue'
+export { default as SmallCardDisplay } from '../..\\components\\SmallCardDisplay.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

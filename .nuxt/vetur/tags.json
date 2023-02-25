@@ -11,8 +11,23 @@
   "LargeCardDisplay": {
     "description": "Auto imported from components/LargeCardDisplay.vue"
   },
+  "MyItem": {
+    "description": "Auto imported from components/MyItem.vue"
+  },
   "Nav": {
     "description": "Auto imported from components/Nav.vue"
+  },
+  "PageNotFound": {
+    "description": "Auto imported from components/PageNotFound.vue"
+  },
+  "RentModal": {
+    "description": "Auto imported from components/RentModal.vue"
+  },
+  "Review": {
+    "description": "Auto imported from components/Review.vue"
+  },
+  "ReviewCard": {
+    "description": "Auto imported from components/ReviewCard.vue"
   },
   "SmallCard": {
     "description": "Auto imported from components/SmallCard.vue"

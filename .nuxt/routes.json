@@ -1,5 +1,12 @@
 [
   {
+    "name": "my-items",
+    "path": "/my-items",
+    "component": "E:\\\\thatek\\\\firepage-nuxt\\\\pages\\\\my-items.vue",
+    "chunkName": "pages/my-items",
+    "_name": "_418f1ea8"
+  },
+  {
     "name": "products",
     "path": "/products",
     "component": "E:\\\\thatek\\\\firepage-nuxt\\\\pages\\\\products\\\\index.vue",
