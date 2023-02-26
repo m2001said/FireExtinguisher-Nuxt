@@ -28,4 +28,6 @@ p {
   text-align: center;
   font-size: 2rem;
 }
+@media (max-width: 770px) {
+}
 </style>

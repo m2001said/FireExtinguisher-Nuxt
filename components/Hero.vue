@@ -51,28 +51,45 @@ export default {};
   top: 0;
 }
 .button {
-  padding: 1rem 4rem;
+  padding: 5px;
   border-radius: 100rem;
   background-color: rgb(231, 81, 43);
   color: white;
-  width: 20rem;
+  width: 100%;
   font-weight: 700;
   transition: 0.5s;
 }
 .button:hover {
   width: 21.5rem;
 }
-@media (max-width: 700px) {
+@media (max-width: 765px) {
   .Hero {
     /* height: 40vh; */
     flex-direction: column-reverse;
     gap: 0rem;
   }
   .text-container {
-    margin-top: 0;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
   }
   .image {
-    width: 60%;
+    width: 200px;
+    margin-bottom: 1rem;
+  }
+  .header {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 500px) {
+  .header {
+    font-size: 2rem;
+  }
+  .snippet {
+    font-size: 1rem;
   }
 }
 </style>

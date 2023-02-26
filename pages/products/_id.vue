@@ -67,6 +67,7 @@ export default {
 <style scoped>
 .container {
   padding: 2rem;
+  margin-top: 6rem;
 }
 .hero-container {
   display: flex;

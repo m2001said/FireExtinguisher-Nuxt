@@ -66,4 +66,9 @@ body {
 .card {
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.308);
 }
+@media (max-width: 700px) {
+  .main-container {
+    padding: 0 1rem;
+  }
+}
 </style>

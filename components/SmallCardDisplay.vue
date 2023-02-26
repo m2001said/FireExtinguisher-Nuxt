@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h2 class="header">{{ smallcardsSection.title }}</h2>
-    <div class="card-container">
+    <div class="card-containers">
       <SmallCard
         v-for="card in smallcardsSection.cards"
         :key="card.id"
@@ -26,9 +26,10 @@ export default {
   font-size: 1.5rem;
   margin-bottom: 2rem;
 }
-.card-container {
+.card-containers {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 </style>

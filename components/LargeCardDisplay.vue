@@ -35,6 +35,10 @@ export default {
 }
 .cards-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+@media (max-width: 700px) {
 }
 </style>

@@ -1,8 +1,7 @@
 <template>
   <div class="card-container">
-    <nuxt-link :to="`/products/${smallCard.id}`">
+    <nuxt-link :to="`/products/${smallCard.id}`" class="image">
       <img
-        class="image"
         :src="require(`@/assets/images/${smallCard.image || 'fe1.jpg'}`)"
         alt="fire card"
       />
@@ -32,16 +31,30 @@ export default {
 
 <style scoped>
 .card-container {
-  width: 24%;
-
+  /* width: 24%; */
   border-radius: 0.5rem;
   overflow: hidden;
-  margin-bottom: 1.5rem;
+  /* margin-bottom: 1.5rem; */
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
+img,
 .image {
-  width: 100%;
+  width: 300px;
   height: 175px;
   object-fit: cover;
+}
+@media (max-width: 770px) {
+  .card-container {
+    width: 100%;
+  }
+  .image,
+  img {
+    max-width: 770px;
+    width: 100%;
+  }
 }
 </style>

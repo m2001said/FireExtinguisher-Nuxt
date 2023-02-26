@@ -37,7 +37,7 @@ export default {
 
 <style scoped>
 .card {
-  width: 31.5%;
+  width: 300px;
   /* height: 100%; */
   height: 400px;
   border: none;
@@ -66,5 +66,10 @@ p {
 button {
   position: absolute;
   bottom: 0;
+}
+@media (max-width: 770px) {
+  .card {
+    width: 100%;
+  }
 }
 </style>
